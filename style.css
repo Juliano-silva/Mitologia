@@ -20,12 +20,12 @@
     color: rgb(89, 89, 250);
     text-shadow: 1px 1px 1px black;
 }
-#caixa{
-    text-align: left ;
-    position: fixed;
+#caixa > a{
+    float: left;
     color: white;
     padding: 10px;
     text-shadow: none;
+    text-transform: none;
 }
 #caixa > p > a{
     color: turquoise;
