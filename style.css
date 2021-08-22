@@ -2,14 +2,31 @@
     margin: 0;
     padding: 0;
 }
+
 .cursor{
     height: 100vh;
     background-color: rgb(94, 218, 218);
     background-position:center;
     background-size: cover;
     cursor: url("cursor/cursor.cur"),all-scroll;
+    
 }
 #box{
     text-align: center;
-    background: chartreuse;
+    background: rgb(221, 152, 24);
+    background-repeat: no-repeat;
+    height: 130px;
+    font-size: 25px;
+    color: rgb(89, 89, 250);
+    text-shadow: 1px 1px 1px black;
+}
+#caixa{
+    text-align: left ;
+    position: fixed;
+    color: white;
+    padding: 10px;
+    text-shadow: none;
+}
+#caixa > p > a{
+    color: turquoise;
 }
