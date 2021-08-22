@@ -9,3 +9,7 @@
     background-size: cover;
     cursor: url("cursor/cursor.cur"),all-scroll;
 }
+#box{
+    text-align: center;
+    background: chartreuse;
+}
