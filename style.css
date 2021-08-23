@@ -30,10 +30,16 @@
 #caixa > p > a{
     color: turquoise;
 }
+#ico{
+    display: grid;
+    position: absolute;
+    margin: 100px;
+    width: 600px;
+}
 #Text{
     border-radius: 10px;
     border-style: solid;
-    margin: 50px auto;
+    margin: 45px auto;
     width: 1000px;
     border-color: transparent;
 }
