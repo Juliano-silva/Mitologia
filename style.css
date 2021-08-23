@@ -4,7 +4,7 @@
 }
 
 .cursor{
-    height: 300vh;
+    height: 500vh;
     background-color: rgb(231, 202, 174);
     background-position:center;
     background-size: cover;
@@ -33,9 +33,12 @@
 #ico{
     display: grid;
     position: absolute;
-    margin: 80px;
+    top: -100px;
+    margin: 300px;
     width: 700px;
     position: fixed;
+    background: transparent;
+    width: 200px;
 }
 #Text{
     border-radius: 10px;
