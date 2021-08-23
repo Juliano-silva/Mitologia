@@ -13,7 +13,7 @@
 }
 #box{
     text-align: center;
-    background: rgb(221, 152, 24);
+    background: linear-gradient(rgb(223, 150, 14),rgb(221, 152, 24),rgb(248, 163, 6));
     background-repeat: no-repeat;
     height: 130px;
     font-size: 25px;
@@ -29,4 +29,11 @@
 }
 #caixa > p > a{
     color: turquoise;
+}
+#Text{
+    border-radius: 10px;
+    border-style: solid;
+    margin: 50px auto;
+    width: 1000px;
+    border-color: transparent;
 }
