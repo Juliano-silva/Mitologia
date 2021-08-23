@@ -4,13 +4,14 @@
 }
 
 .cursor{
-    height: 500vh;
+    height: 815vh;
     background-color: rgb(231, 202, 174);
     background-position:center;
     background-size: cover;
     cursor: url("cursor/cursor.cur"),all-scroll;
     
 }
+
 #box{
     text-align: center;
     background: linear-gradient(rgb(223, 150, 14),rgb(221, 152, 24),rgb(248, 163, 6));
@@ -38,7 +39,11 @@
     width: 700px;
     position: fixed;
     background: transparent;
-    width: 200px;
+    width: 80px;
+}
+#icon{
+    width: 40px;
+    height: 40px;
 }
 #Text{
     border-radius: 10px;
