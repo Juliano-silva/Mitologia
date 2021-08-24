@@ -9,9 +9,7 @@
     background-position:center;
     background-size: cover;
     cursor: url("cursor/cursor.cur"),all-scroll;
-    
 }
-
 #box{
     text-align: center;
     background: linear-gradient(rgb(223, 150, 14),rgb(221, 152, 24),rgb(248, 163, 6));
@@ -50,7 +48,8 @@
     border-style: solid;
     margin: 45px auto;
     width: 1000px;
-    border-color: transparent;
+    border-color:transparent;
+    border-width: 10px ;
 }
 #Text > p{
     margin: 10px;
