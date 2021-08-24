@@ -12,18 +12,29 @@
 }
 #box{
     text-align: center;
-    background: linear-gradient(rgb(223, 150, 14),rgb(221, 152, 24),rgb(248, 163, 6));
+    background: linear-gradient(rgb(223, 150, 14),rgb(236, 161, 21),rgb(250, 169, 18)); 
     background-repeat: no-repeat;
     height: 130px;
     font-size: 25px;
     color: rgb(89, 89, 250);
     text-shadow: 1px 1px 1px black;
 }
-#caixa > a{
-    float: left;
+#caixa > a{ 
+    text-align: center;
     color: white;
     padding: 10px;
     text-shadow: none;
+    text-transform: unset;
+    font-size: 19px;
+    text-align: center;
+}
+:hover#caixa > a{
+    border-style: solid;
+    border-color: transparent;
+    background: red;
+    transition-delay:1s;
+    height: 15px;
+    text-align: center;
     text-transform: none;
 }
 #caixa > p > a{
