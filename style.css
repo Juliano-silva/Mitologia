@@ -21,22 +21,22 @@
 }
 #caixa > a{ 
     text-align: center;
-    color: white;
+    color: rgb(220, 228, 205);
     padding: 10px;
     text-shadow: none;
     text-transform: unset;
     font-size: 19px;
     text-align: center;
 }
-:hover#caixa > a{
+/* :hover#caixa > a{
     border-style: solid;
     border-color: transparent;
-    background: red;
-    transition-delay:1s;
+    color: darkolivegreen;
     height: 15px;
     text-align: center;
     text-transform: none;
-}
+} */
+
 #caixa > p > a{
     color: rgb(127, 235, 224);
 }
