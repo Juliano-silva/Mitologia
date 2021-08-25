@@ -4,7 +4,7 @@
 }
 
 .cursor{
-    height: 230em;
+    height: 235em;
     background-color: rgb(231, 202, 174);
     background-position:center;
     background-size: cover;
@@ -14,10 +14,16 @@
     text-align: center;
     background: linear-gradient(rgb(223, 150, 14),rgb(236, 161, 21),rgb(250, 169, 18)); 
     background-repeat: no-repeat;
-    height: 230px;
+    height: 235px;
     font-size: 25px;
     color: rgb(89, 89, 250);
     text-shadow: 1px 1px 2px black;
+}
+#box > h1{
+    font-size: 125px;
+}
+#box > h3{
+    font-size: 50px;
 }
 #caixa > a{ 
     text-align: center;
@@ -43,7 +49,7 @@
 #ico{
     display: grid;
     position: absolute;
-    top: -10px;
+    top: 75px;
     margin: 250px;
     width: 700px;
     position: fixed;
@@ -57,7 +63,7 @@
 #Text{
     border-radius: 10px;
     border-style: solid;
-    margin: 105px auto;
+    margin: 25px auto;
     width: 1000px;
     border-color:transparent;
     border-width: 10px ;
