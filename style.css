@@ -4,7 +4,7 @@
 }
 
 .cursor{
-    height: 445em;
+    height: 288em;
     background-color: rgb(231, 202, 174);
     background-position:center;
     background-size: cover;
@@ -85,6 +85,10 @@
     float: right;
     width: 350px;
     height: 250px;
+}
+#imgL{
+    width: 700px;
+    height: 500px;
 }
 #TextoM{
     display: table-cell;
