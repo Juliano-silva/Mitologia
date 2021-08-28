@@ -9,18 +9,18 @@
 }
 .cursor{
     height: 300em;
-    background-color: rgb(231, 202, 174);
+    background:linear-gradient(#A3D9FF,#3E6990,#ACE4AA,#E9D758,#FCAF58);
     background-position:center;
     background-size: cover;
     cursor: url("cursor/cursor2.cur"),all-scroll;
 }
 #box{
     text-align: center;
-    background: linear-gradient(rgb(223, 150, 14),rgb(236, 161, 21),rgb(250, 169, 18)); 
+    background: linear-gradient(rgb(240, 186, 86),rgb(236, 186, 93),rgb(243, 185, 78));
     background-repeat: no-repeat;
     height: 235px;
     font-size: 25px;
-    color: rgb(76, 76, 243);
+    color: rgb(98, 98, 224);
     text-shadow: 2px 1px 2px black;
     font-family: 'Seagram';
 }
@@ -40,15 +40,6 @@
     font-size: 19px;
     text-align: center;
 }
-/* :hover#caixa > a{
-    border-style: solid;
-    border-color: transparent;
-    color: darkolivegreen;
-    height: 15px;
-    text-align: center;
-    text-transform: none;
-} */
-
 #caixa > p > a{
     color: rgb(127, 235, 224);
 }
@@ -101,8 +92,27 @@
     height: 500px;
     border-color: black;
     border-style: solid;
+    background-image: url('img/Olimpo.jpg');
 }
 #TextoM{
     display: table-cell;
     float: right;
+}
+footer{
+    border-style: solid;
+    background: black;
+    border-color: transparent;
+    height: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+#Éris{
+    border-style: solid;
+    border-bottom-left-radius:25px ;
+    border-bottom-right-radius:25px ; 
+    background: white;
+    color: purple;
+    border-color: white;
+    width: 320px;
+    margin: auto;
 }

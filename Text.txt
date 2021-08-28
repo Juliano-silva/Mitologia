@@ -4,3 +4,9 @@ Esse vai ser um site sobre mitologia grega vou abordar:
 *A guerra de Troia
 fonte:(https://blog.estrategiavestibulares.com.br/historia/deuses-gregos/)
 fonte:(https://mitologiagrega.net.br/titanomaquia-guerra-dos-titas/)
+
+
+coisas que faltam:
+1.footer
+2.Mudar as cores
+3.Talvez tirar o icone
