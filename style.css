@@ -9,18 +9,19 @@
 }
 .cursor{
     height: 300em;
-    background:linear-gradient(#A3D9FF,#3E6990,#ACE4AA,#E9D758,#FCAF58);
+    background:linear-gradient(#7dbce9,#4184c2,#3b6388);
     background-position:center;
     background-size: cover;
     cursor: url("cursor/cursor2.cur"),all-scroll;
 }
 #box{
     text-align: center;
-    background: linear-gradient(rgb(240, 186, 86),rgb(236, 186, 93),rgb(243, 185, 78));
+    background: linear-gradient(rgb(186, 231, 233),rgb(190, 233, 235),rgb(191, 235, 236));
+    /* background: linear-gradient(rgb(240, 186, 86),rgb(236, 186, 93),rgb(243, 185, 78)); */
     background-repeat: no-repeat;
     height: 235px;
     font-size: 25px;
-    color: rgb(98, 98, 224);
+    color: rgb(251, 255, 5);
     text-shadow: 2px 1px 2px black;
     font-family: 'Seagram';
 }
@@ -33,7 +34,7 @@
 }
 #caixa > a{ 
     text-align: center;
-    color: rgb(220, 228, 205);
+    color: rgb(0, 0, 0);
     padding: 10px;
     text-shadow: none;
     text-transform: unset;
@@ -42,20 +43,6 @@
 }
 #caixa > p > a{
     color: rgb(127, 235, 224);
-}
-#ico{
-    display: grid;
-    position: absolute;
-    top: 75px;
-    margin: 250px;
-    width: 700px;
-    position: fixed;
-    background: transparent;
-    width: 80px;
-}
-#icon{
-    width: 40px;
-    height: 40px;
 }
 #Text{
     border-radius: 10px;
@@ -67,7 +54,7 @@
 }
 #Text > p{
     margin: 10px;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     text-align: justify;
@@ -84,7 +71,7 @@
     float: right;
     width: 350px;
     height: 250px;
-    border-color: black;
+    border-color: transparent;
     border-style: solid;
 }
 #imgL{
@@ -100,7 +87,7 @@
 }
 footer{
     border-style: solid;
-    background: black;
+    background: white;
     border-color: transparent;
     height: 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -115,4 +102,26 @@ footer{
     border-color: white;
     width: 320px;
     margin: auto;
+}
+#Éris > img{
+    border-color: black;
+}
+.footer{
+    float: left;
+}
+#ico2{
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 50%;
+    border:5px solid black;
+}
+#ico{
+
+}
+#icon{
+    border-style: solid;
+    border-color: black; 
+    background: black;
 }
