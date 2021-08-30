@@ -7,6 +7,6 @@ fonte:(https://mitologiagrega.net.br/titanomaquia-guerra-dos-titas/)
 
 
 coisas que faltam:
-1.footer
-2.Mudar as cores
-3.Talvez tirar o icone
+1.footer 
+2.Mudar as cores X
+3.Talvez tirar o icone X
