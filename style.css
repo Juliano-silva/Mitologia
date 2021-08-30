@@ -88,7 +88,7 @@
 footer{
     border-style: solid;
     background: rgb(97, 93, 93);
-    height: 15em;
+    height: 17em;
     border-color: transparent;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
@@ -116,25 +116,42 @@ footer{
     border-radius: 50%;
     border:5px solid black;
 }
+#a{
+    color: white;
+    text-decoration: none;
+}
+#a:hover{
+    color: rgb(61, 31, 61);
+    transition: 1s;
+    transition-delay: 0.25s
+}
 #ico{
-    margin: auto;   
+    margin: auto;  
 }
 #icon{
     border-style: solid;
     border-color: black; 
-    background: black;
-    float: right;
+    background: rgb(0, 0, 0);  
     margin: 20px ;
     border-radius: 50%;
 }
 #f1{
     text-align: center;
-    border-color: black;
+    border-color: transparent;
     border-style: solid;
-    width: 800px;
-    background: wheat;
+    width: 400px;
+    background: transparent;
     height: 250px;
     margin: auto;
+    display: block;
     font-size: 20px;
     padding: 10px;
+}
+iframe{
+    margin: -250px auto;
+    float: right;
+    padding: 40px;
+    align-items: center;
+    width: 330px;
+    height: 250px;
 }
