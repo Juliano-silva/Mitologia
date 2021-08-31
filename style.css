@@ -1,3 +1,6 @@
+html{
+    overflow-x: hidden;
+}
 *{
     margin: 0;
     padding: 0;
@@ -16,12 +19,12 @@
 }
 #box{
     text-align: center;
-    background: linear-gradient(rgb(186, 231, 233),rgb(190, 233, 235),rgb(191, 235, 236));
+    background: no-repeat center/cover url(img/mitologia-grega-importancia-.jpg);
     /* background: linear-gradient(rgb(240, 186, 86),rgb(236, 186, 93),rgb(243, 185, 78)); */
     background-repeat: no-repeat;
     height: 235px;
     font-size: 25px;
-    color: rgb(251, 255, 5);
+    color: rgb(235, 238, 49);
     text-shadow: 2px 1px 2px black;
     font-family: 'Seagram';
 }
@@ -34,7 +37,7 @@
 }
 #caixa > a{ 
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 10px;
     text-shadow: none;
     text-transform: unset;
@@ -63,7 +66,7 @@
 #img{
     width: 950px;
     height: 500px;
-    border-color: black;
+    border-color: transparent;
     border-style: solid;
 }
 #imgM{
@@ -77,7 +80,7 @@
 #imgL{
     width: 700px;
     height: 500px;
-    border-color: black;
+    border-color: transparent;
     border-style: solid;
     background-image: url('img/Olimpo.jpg');
 }
@@ -134,6 +137,11 @@ footer{
     background: rgb(0, 0, 0);  
     margin: 20px ;
     border-radius: 50%;
+    border:3px solid black;
+}
+#icon:hover{
+    background: white;
+    border-color: white ;
 }
 #f1{
     text-align: center;
@@ -152,6 +160,6 @@ iframe{
     float: right;
     padding: 40px;
     align-items: center;
-    width: 330px;
+    width: 450px;
     height: 250px;
 }
